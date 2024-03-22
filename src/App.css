@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+.block {
+  width: 25px; /* Adjust width and height as needed */
+  height: 25px;
+  background-color: #ccc; /* Adjust color as needed */
+  border: 1px solid #000; /* Optional: Add borders */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* z */
+.red{
+  width: 25px; /* Adjust width and height as needed */
+  height: 25px;
+  background-color: #a10e0e; /* Adjust color as needed */
+  border: 1px solid #000; /* Optional: Add borders */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* S */
+.green{
+  width: 25px; /* Adjust width and height as needed */
+  height: 25px;
+  background-color: #21f01a; /* Adjust color as needed */
+  border: 1px solid #000; /* Optional: Add borders */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* L */
+.orange{
+  width: 25px; /* Adjust width and height as needed */
+  height: 25px;
+  background-color: #f7b40a; /* Adjust color as needed */
+  border: 1px solid #000; /* Optional: Add borders */
+}
+
+/* backwards L */
+.blue{
+  width: 25px; /* Adjust width and height as needed */
+  height: 25px;
+  background-color: #2951f2; /* Adjust color as needed */
+  border: 1px solid #000; /* Optional: Add borders */
+}
+
+/* I */
+.teal{
+  width: 25px; /* Adjust width and height as needed */
+  height: 25px;
+  background-color: #29f2f2; /* Adjust color as needed */
+  border: 1px solid #000; /* Optional: Add borders */
+}
+
+/* square */
+.yellow{
+  width: 25px; /* Adjust width and height as needed */
+  height: 25px;
+  background-color: #ede613; /* Adjust color as needed */
+  border: 1px solid #000; /* Optional: Add borders */
+}
+
+
+.top{
+  height: 20vh;
+}
+
+h1{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.board{
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row{
+  display: flex;
+  justify-content: center;
 }
