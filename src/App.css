@@ -1,69 +1,40 @@
 .block {
-  width: 25px; /* Adjust width and height as needed */
+  width: 25px; 
   height: 25px;
-  background-color: #ccc; /* Adjust color as needed */
-  border: 1px solid #000; /* Optional: Add borders */
+  background-color: #ccc; 
+  border: 1px solid #000; 
 }
 
-/* z */
-.red{
-  width: 25px; /* Adjust width and height as needed */
+.snakeHead{
+  width: 25px; 
   height: 25px;
-  background-color: #a10e0e; /* Adjust color as needed */
-  border: 1px solid #000; /* Optional: Add borders */
+  background-color: #a10e0e; 
+  border: 1px solid #000; 
 }
 
-/* S */
-.green{
-  width: 25px; /* Adjust width and height as needed */
+.snake{
+  width: 25px; 
   height: 25px;
-  background-color: #21f01a; /* Adjust color as needed */
-  border: 1px solid #000; /* Optional: Add borders */
+  background-color: #21f01a; 
+  border: 1px solid #000; 
 }
 
-/* L */
-.orange{
-  width: 25px; /* Adjust width and height as needed */
+.apple{
+  width: 25px; 
   height: 25px;
-  background-color: #f7b40a; /* Adjust color as needed */
-  border: 1px solid #000; /* Optional: Add borders */
+  background-color: #f7b40a; 
+  border: 1px solid #000; 
 }
 
-/* backwards L */
-.blue{
-  width: 25px; /* Adjust width and height as needed */
-  height: 25px;
-  background-color: #2951f2; /* Adjust color as needed */
-  border: 1px solid #000; /* Optional: Add borders */
-}
-
-/* I */
-.teal{
-  width: 25px; /* Adjust width and height as needed */
-  height: 25px;
-  background-color: #29f2f2; /* Adjust color as needed */
-  border: 1px solid #000; /* Optional: Add borders */
-}
-
-/* square */
-.yellow{
-  width: 25px; /* Adjust width and height as needed */
-  height: 25px;
-  background-color: #ede613; /* Adjust color as needed */
-  border: 1px solid #000; /* Optional: Add borders */
-}
 
 
 .top{
-  height: 20vh;
+  height: 10vh;
 }
 
-h1{
+h1,h3{
   display: flex;
   justify-content: center;
-}
-
-.board{
 }
 
 .row{
